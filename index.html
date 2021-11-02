@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ja" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta http-equiv="content-type" charset="UTF-8">
     <meta name="robots" content="noindex , nofollow"/>
@@ -9,9 +9,106 @@
     <title>プロジェクトスタディーズ</title>
 </head>
 <body>
-    <div class="mx-auto,fs-1,p-3 mb-2 bg-info text-dark" style="width: 650px;" >3グループプロジェクトスタディズ</div>
-    <!-- この下は書き換えないで -->
-    <script src="node_modules/@popperjs/core/dist/cjs/popper.js" crossorigin="anonymous"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+ <header>
+    <br><td align="center"><img src="素材/素材1.png" alt="ヘッダー" id="img"></td></br>
+ </header>
+ <nav>
+     <a><img src="/steal/素材/Topボタン.png"></a>
+     <a><img src="/steal/素材/大気ボタン.png"></a>
+     <a><img src="/steal/素材/水質ボタン.png"></a>
+     <a><img src="/steal/素材/土壌ボタン.png"></a>
+ </nav>
+ <section>
+     <p><font size="7.5" face="Comic Sans MS">Welcome to our homepage!</font></p>
+     <p><font size="4.5" face="serif">
+         <a href="https://www.soka.ac.jp/" target="_blank" style="text-decoration:none"><font
+                 color="black">創価大学</font></a><a href="https://www.soka.ac.jp/science/" target="_blank"
+                                                 style="text-decoration:none"><font color="black">理工学部</font></a><a
+             href="https://www.soka.ac.jp/science/symbiosis/" target="_blank" style="text-decoration:none"><font
+             color="black">共生創造理工学科</font></a>の学生による環境汚染問題に関するホームページです。
+     </font><br>
+         <font size="1.5" face="serif">※このホームページはPCのみに対応しているためスマートフォンでは正しく表示されない可能性があります。</font></p>
+     <p>
+         大気汚染、水質汚染、土壌汚染について調べました。<br><br>
+         基本的には日本での事例を参考に文章を書いていますが、<br>
+         水質汚染問題に関しては一部海外の事例を参考にしています。<br><br>
+         それぞれ以下のリンクからも開くことができます。<br>
+         大気汚染は<a><font color="#4682b4">こちら</font></a><br>
+         水質汚染は<a><font color="#87ceeb">こちら</font></a><br>
+         土壌汚染は<a><font color="#cd853f">こちら</font></a><br>
+         <br>
+         参考文献一覧は<a><font color="#2e8b57">こちら</font></a><br>
+     </p>
+ </section>
+ <!-- この下は書き換えないで -->
+ <script src="./node_modules/@popperjs/core/dist/cjs/popper.js" crossorigin="anonymous"></script>
+ <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
 </body>
 </html>
+<!-- steal css -->
+<style>
+    html {
+        width: 800px;
+        background-color: white;
+        margin: auto;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    body {
+        position: relative;
+        background: #00000000;
+        box-shadow: 0px 0px 0px 5px #beedbe;
+        border: dashed 1.5px #2f4f4f;
+        padding: 0em 0em;
+        color: #454545;
+    }
+
+    body:after {
+        position: absolute;
+        content: '';
+        right: -7px;
+        top: -7px;
+        border-width: 0 15px 15px 0;
+        border-style: solid;
+        border-color: #2f4f4f #fff #2f4f4f;
+        box-shadow: -1px 1px 1px #2f4f4f;
+    }
+
+    body {
+        background-image: url("/steal/bg090/bg090_04.gif");
+        background-attachment: scroll;
+        background-repeat: repeat;
+    }
+
+
+    header {
+        width: 100%;
+        background-color: rgba(213, 237, 213, 0.75);
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    section {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    div {
+        width: 80%;
+        text-align: left;
+        margin: auto;
+    }
+
+    footer {
+        background-color: rgba(213, 237, 213, 0.75);
+        text-align: center;
+    }
+
+</style>
