@@ -1,109 +1,73 @@
 <!DOCTYPE html>
-<html lang="ja" xmlns="http://www.w3.org/1999/html">
-<head>
-    <meta http-equiv="content-type" charset="UTF-8">
-    <meta name="robots" content="noindex,nofollow,noarchive"/>
+<html lang="ja">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>海洋汚染について</title>
+    <!-- Required meta tags -->
+    <meta name="robots" content="noindex,nofollow,noarchive">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>プロジェクトスタディーズ</title>
-</head>
-<body>
- <header>
-    <td align="center"><img src="./steal/素材/素材1.png" alt="ヘッダー" id="img"></td>
- </header>
- <nav>
-     <a><img src="./steal/素材/Topボタン.png"></a>
-     <a><img src="./steal/素材/大気ボタン.png"></a>
-     <a><img src="./steal/素材/水質ボタン.png"></a>
-     <a><img src="./steal/素材/土壌ボタン.png"></a>
- </nav>
- <section>
-     <p><font size="7.5" face="Comic Sans MS">Welcome to our homepage!</font></p>
-     <p><font size="4.5" face="serif">
-         <a href="https://www.soka.ac.jp/" target="_blank" style="text-decoration:none"><font
-                 color="black">創価大学</font></a><a href="https://www.soka.ac.jp/science/" target="_blank"
-                                                 style="text-decoration:none"><font color="black">理工学部</font></a><a
-             href="https://www.soka.ac.jp/science/symbiosis/" target="_blank" style="text-decoration:none"><font
-             color="black">共生創造理工学科</font></a>の学生による環境汚染問題に関するホームページです。
-     </font><br>
-         <font size="1.5" face="serif">※このホームページはPCのみに対応しているためスマートフォンでは正しく表示されない可能性があります。</font></p>
-     <p>
-         大気汚染、水質汚染、土壌汚染について調べました。<br><br>
-         基本的には日本での事例を参考に文章を書いていますが、<br>
-         水質汚染問題に関しては一部海外の事例を参考にしています。<br><br>
-         それぞれ以下のリンクからも開くことができます。<br>
-         大気汚染は<a><font color="#4682b4">こちら</font></a><br>
-         水質汚染は<a><font color="#87ceeb">こちら</font></a><br>
-         土壌汚染は<a><font color="#cd853f">こちら</font></a><br>
-         <br>
-         参考文献一覧は<a><font color="#2e8b57">こちら</font></a><br>
-     </p>
- </section>
-</body>
+    <!-- Bootstrap CSS v5.1.3 -->
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
+    <!-- Custom css-->
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+  <header class="navbar navbar-expand-lg fixed-top navbar-dark bg-blue" aria-label="Main navigation">
+    <div class="container-fluid sticky-top">
+      <a class="navbar-brand">Team Marine</a>
+      <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-collapse offcanvas-collapse" id="navbars">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">排出物</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown01">
+              <li><a class="dropdown-item" href="emissions/industrial.html">工業排水</a></li>
+              <li><a class="dropdown-item" href="emissions/oil.html">油の流出</a></li>
+              <li><a class="dropdown-item" href="emissions/acidic.html">海水の酸性化</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="dropdown02" data-bs-toggle="dropdown" aria-expanded="false">微生物</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown02">
+              <li><a class="dropdown-item" href="microorganisms/red_tide.html">赤潮</a></li>
+              <li><a class="dropdown-item" href="microorganisms/Proliferation.html">細菌類の増殖</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">廃棄物</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown03">
+              <li><a class="dropdown-item" href="waste/radiation.html">放射性物質</a></li>
+              <li><a class="dropdown-item" href="waste/plastic.html">プラスチックごみ</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="links.html">リンク集</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <div class="text-center">
+    <h2 class="jp-Gothic h1 navbar-dark" style="background-color: rgba(235,235,235,0.2)">3G Marine</h2>
+  </div>
+  <div class="text-center h2">本文</div>
+  <footer class="container py-3 my-4 fixed-bottom">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+    </ul>
+    <p class="text-center text-muted">&copy; 2021 創価大学理工学部共生創造学科</p>
+  </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="dist/js/bootstrap.bundle.js"></script>
+  </body>
 </html>
-<!-- steal css -->
-<style>
-    html {
-        width: 800px;
-        background-color: white;
-        margin: auto;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    body {
-        position: relative;
-        background: #00000000;
-        box-shadow: 0px 0px 0px 5px #beedbe;
-        border: dashed 1.5px #2f4f4f;
-        padding: 0em 0em;
-        color: #454545;
-    }
-
-    body:after {
-        position: absolute;
-        content: '';
-        right: -7px;
-        top: -7px;
-        border-width: 0 15px 15px 0;
-        border-style: solid;
-        border-color: #2f4f4f #fff #2f4f4f;
-        box-shadow: -1px 1px 1px #2f4f4f;
-    }
-
-    body {
-        background-image: url("/steal/bg090/bg090_04.gif");
-        background-attachment: scroll;
-        background-repeat: repeat;
-    }
-
-
-    header {
-        width: 100%;
-        background-color: rgba(213, 237, 213, 0.75);
-    }
-
-    nav {
-        text-align: center;
-    }
-
-    section {
-        width: 100%;
-        text-align: center;
-    }
-
-
-    div {
-        width: 80%;
-        text-align: left;
-        margin: auto;
-    }
-
-    footer {
-        background-color: rgba(213, 237, 213, 0.75);
-        text-align: center;
-    }
-
-</style>
