@@ -76,3 +76,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.bg-rgba{
+    background-color:rgba(255,255,255,0.3);
+    width: max-content;
+    height: available;
+    margin: auto;
+    text-align: center;
+}
